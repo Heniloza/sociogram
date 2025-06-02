@@ -1,9 +1,9 @@
-import React from 'react'
-
 function page() {
   return (
-    <div>page</div>
-  )
+    <div className="m-4">
+      <h1>Home page content</h1>
+    </div>
+  );
 }
 
-export default page
+export default page;
