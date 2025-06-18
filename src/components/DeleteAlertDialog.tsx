@@ -21,7 +21,7 @@ interface DeleteAlertDialogProps {
   description?: string;
 }
 
-export function DeleteAlertDialog({
+export default function DeleteAlertDialog({
   isDeleting,
   onDelete,
   title = "Delete Post",
