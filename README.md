@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Sociogram - A Modern Social Media Platform
 
-## Getting Started
+Sociogram is a full-stack social media application built using **Next.js**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**. It provides a smooth user experience with real-time features and a clean, responsive design.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+##  Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-  **Authentication with Clerk**  
+  Seamless and secure user authentication using [Clerk](https://clerk.dev).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-  **Post Management**  
+  - Create new posts  
+  - Read existing posts  
+  - Like and comment on posts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-  **Real-Time Notifications**  
+  Users receive instant notifications when they are:
+  - Followed
+  - Liked
+  - Commented on
 
-## Learn More
+-  **Follow System**  
+  - Follow/unfollow other users  
+  - View your followers and following list
 
-To learn more about Next.js, take a look at the following resources:
+-  **Follow Recommendations**  
+  - Personalized suggestions for users you may want to follow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+| Tech | Description |
+|------|-------------|
+| **Next.js** | React framework for server-side rendering and routing |
+| **TypeScript** | Type-safe development |
+| **Tailwind CSS** | Utility-first CSS for responsive UI |
+| **shadcn/ui** | Beautiful, reusable components |
+| **Prisma** | Modern ORM for database interaction |
+| **Neon DB** | Serverless PostgreSQL database |
+| **Clerk** | Authentication and user management |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
